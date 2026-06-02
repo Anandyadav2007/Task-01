@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Yadav Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="profile.jpg.jpeg" alt="Anand Yadav" class="profile-pic" <h1>Hello, I'm Anand Yadav</h1>
+        <p>B.Tech CSE Student | Java Developer | Web Developer</p>
+        <button onclick="scrollToSection('contact')">Hire Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech Computer Science student passionate about software
+            development, Java programming, web development, and problem solving.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Online Ticket Booking System</h3>
+            <p>Java multithreading project using synchronization.</p>
+        </div>
+
+        <div class="project">
+            <h3>CPU Scheduling Simulator</h3>
+            <p>Implementation of FCFS and Round Robin algorithms.</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio website.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: <a href="maito:ay96289541@gmail.com">ay96289541@gmail.com</a></p>
+        <p>
+            LinkedIn:<a
+                href="https://www.linkedin.com/in/anand-yadav-89584a347?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank">Visit My LinkedIn</a>
+        </p>
+        <p>GitHub: <a href="https://github.com/Anandyadav2007">Visit My GitHub</a></p>
+
+        <p id="successMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Anand Yadav. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
